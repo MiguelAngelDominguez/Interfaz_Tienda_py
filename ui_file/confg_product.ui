@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Editar_Recibo</class>
- <widget class="QWidget" name="Editar_Recibo">
+ <class>Confg_Productos</class>
+ <widget class="QWidget" name="Confg_Productos">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>587</width>
-    <height>670</height>
+    <width>586</width>
+    <height>441</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Agregar Producto</string>
+   <string>Editar Producto</string>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(0, 0, 0);
@@ -21,9 +21,9 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>10</y>
+     <y>0</y>
      <width>571</width>
-     <height>541</height>
+     <height>321</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -39,41 +39,20 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>10</y>
+      <y>20</y>
       <width>571</width>
       <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#ffffff;&quot;&gt;Editar Recibo&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#ffffff;&quot;&gt;Configuración de Productos&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>60</y>
-      <width>151</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>12</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(255, 255, 255);</string>
-    </property>
-    <property name="text">
-     <string>Nombre del Cliente :</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_13">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>100</y>
+      <x>20</x>
+      <y>90</y>
       <width>111</width>
       <height>21</height>
      </rect>
@@ -87,15 +66,15 @@
      <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string>DNI :</string>
+     <string>Ganacia  :</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_14">
+   <widget class="QLabel" name="label_13">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>20</x>
       <y>140</y>
-      <width>161</width>
+      <width>111</width>
       <height>21</height>
      </rect>
     </property>
@@ -108,15 +87,15 @@
      <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string>Fecha :</string>
+     <string>Descuento :</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_15">
+   <widget class="QLabel" name="label_17">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>180</y>
-      <width>221</width>
+      <x>20</x>
+      <y>200</y>
+      <width>241</width>
       <height>21</height>
      </rect>
     </property>
@@ -129,15 +108,15 @@
      <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string>N° de compra :</string>
+     <string>Imagen por defecto de producto:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="Nombre_cliente">
+   <widget class="QLineEdit" name="Nombre">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>60</y>
-      <width>291</width>
+      <x>100</x>
+      <y>90</y>
+      <width>311</width>
       <height>20</height>
      </rect>
     </property>
@@ -145,12 +124,12 @@
      <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="dni">
+   <widget class="QLineEdit" name="Marca">
     <property name="geometry">
      <rect>
       <x>120</x>
-      <y>100</y>
-      <width>391</width>
+      <y>140</y>
+      <width>311</width>
       <height>20</height>
      </rect>
     </property>
@@ -158,12 +137,25 @@
      <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="buscar_en_recibo">
+   <widget class="QLineEdit" name="img_producto">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>210</y>
-      <width>121</width>
+      <x>260</x>
+      <y>200</y>
+      <width>181</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="b">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>200</y>
+      <width>41</width>
       <height>31</height>
      </rect>
     </property>
@@ -171,39 +163,18 @@
      <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string>Buscar productos</string>
+     <string/>
     </property>
     <property name="icon">
      <iconset>
       <normaloff>../assets/icons/new/lupa.png</normaloff>../assets/icons/new/lupa.png</iconset>
     </property>
    </widget>
-   <widget class="QLabel" name="label_18">
+   <widget class="QPushButton" name="agregar">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>430</y>
-      <width>91</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>12</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(255, 255, 255);</string>
-    </property>
-    <property name="text">
-     <string>Canselado :</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="guardar_recibo">
-    <property name="geometry">
-     <rect>
-      <x>140</x>
-      <y>490</y>
+      <x>150</x>
+      <y>260</y>
       <width>131</width>
       <height>41</height>
      </rect>
@@ -219,11 +190,11 @@
      <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string>AGREGAR</string>
+     <string>GUARDAR</string>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../assets/icons/new/art_pint/documento (2).png</normaloff>../assets/icons/new/art_pint/documento (2).png</iconset>
+      <normaloff>../assets/icons/new/art_pint/anadir-al-carrito.png</normaloff>../assets/icons/new/art_pint/anadir-al-carrito.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -232,11 +203,11 @@
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="Cancelar_recibo">
+   <widget class="QPushButton" name="Cancelar">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>490</y>
+      <x>300</x>
+      <y>260</y>
       <width>131</width>
       <height>41</height>
      </rect>
@@ -254,162 +225,66 @@
     <property name="text">
      <string>CANCELAR</string>
     </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../assets/icons/new/art_pint/eliminar.png</normaloff>../assets/icons/new/art_pint/eliminar.png</iconset>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>35</width>
-      <height>35</height>
-     </size>
-    </property>
    </widget>
-   <widget class="QCheckBox" name="cancelado">
+   <widget class="QLabel" name="label_19">
     <property name="geometry">
      <rect>
-      <x>530</x>
-      <y>430</y>
-      <width>141</width>
+      <x>500</x>
+      <y>180</y>
+      <width>61</width>
       <height>61</height>
      </rect>
     </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(255, 255, 255);</string>
-    </property>
-    <property name="text">
-     <string>SI</string>
-    </property>
-   </widget>
-   <widget class="QTableView" name="table_de_recibo">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>250</y>
-      <width>541</width>
-      <height>192</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLabel" name="fecha_compra">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>140</y>
-      <width>171</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>16</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(255, 255, 255);</string>
-    </property>
-    <property name="text">
-     <string>../../....</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="id_compra">
-    <property name="geometry">
-     <rect>
-      <x>190</x>
-      <y>180</y>
-      <width>171</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>16</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(255, 255, 255);</string>
-    </property>
-    <property name="text">
-     <string>1234567</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="buscador_recibo">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>210</y>
-      <width>261</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(255, 255, 255);</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="borrar_producto">
-    <property name="geometry">
-     <rect>
-      <x>340</x>
-      <y>210</y>
-      <width>41</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(255, 255, 255);</string>
-    </property>
     <property name="text">
      <string/>
     </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../assets/icons/new/art_pint/eliminar.png</normaloff>../assets/icons/new/art_pint/eliminar.png</iconset>
+    <property name="pixmap">
+     <pixmap>../assets/img_ui/producto_default.png</pixmap>
     </property>
-    <property name="iconSize">
-     <size>
-      <width>20</width>
-      <height>20</height>
-     </size>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="agregar_producto">
+   <widget class="QLabel" name="label_20">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>210</y>
-      <width>41</width>
-      <height>31</height>
+      <x>420</x>
+      <y>80</y>
+      <width>131</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <pointsize>12</pointsize>
      </font>
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string/>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt; font-weight:600;&quot;&gt;GANANCIA MAX &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt; font-weight:600;&quot;&gt;DE *1.3%&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../assets/icons/new/art_pint/anadir.png</normaloff>../assets/icons/new/art_pint/anadir.png</iconset>
+   </widget>
+   <widget class="QLabel" name="label_21">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>130</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
     </property>
-    <property name="iconSize">
-     <size>
-      <width>20</width>
-      <height>20</height>
-     </size>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt; font-weight:600;&quot;&gt;DESCUENTO MAX &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt; font-weight:600;&quot;&gt;DE *0.1%&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
   </widget>
@@ -417,7 +292,7 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>560</y>
+     <y>330</y>
      <width>571</width>
      <height>101</height>
     </rect>

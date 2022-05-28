@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>AgregarProducto</class>
- <widget class="QWidget" name="AgregarProducto">
+ <class>Nuevo_producto</class>
+ <widget class="QWidget" name="Nuevo_producto">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>594</width>
-    <height>670</height>
+    <width>586</width>
+    <height>671</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Agregar Producto</string>
+   <string>Editar Producto</string>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(0, 0, 0);
@@ -21,9 +21,9 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>10</y>
+     <y>0</y>
      <width>571</width>
-     <height>541</height>
+     <height>551</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -38,14 +38,14 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>10</y>
+      <x>140</x>
+      <y>20</y>
       <width>281</width>
       <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#ffffff;&quot;&gt;Productos&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#ffffff;&quot;&gt;Editar Productos&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -252,7 +252,7 @@
      <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="b">
     <property name="geometry">
      <rect>
       <x>420</x>
@@ -299,7 +299,7 @@
       <x>20</x>
       <y>410</y>
       <width>541</width>
-      <height>51</height>
+      <height>71</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -310,7 +310,7 @@
     <property name="geometry">
      <rect>
       <x>140</x>
-      <y>490</y>
+      <y>500</y>
       <width>131</width>
       <height>41</height>
      </rect>
@@ -326,7 +326,7 @@
      <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string>AGREGAR</string>
+     <string>GUARDAR</string>
     </property>
     <property name="icon">
      <iconset>
@@ -343,7 +343,7 @@
     <property name="geometry">
      <rect>
       <x>290</x>
-      <y>490</y>
+      <y>500</y>
       <width>131</width>
       <height>41</height>
      </rect>
@@ -360,6 +360,25 @@
     </property>
     <property name="text">
      <string>CANCELAR</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>310</y>
+      <width>81</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../assets/img_ui/producto_default.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
   </widget>

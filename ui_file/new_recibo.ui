@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>AgregarProducto</class>
- <widget class="QWidget" name="AgregarProducto">
+ <class>Nuevo_Recibo_de_Venta</class>
+ <widget class="QWidget" name="Nuevo_Recibo_de_Venta">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -158,12 +158,12 @@
      <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="buscar_producto">
     <property name="geometry">
      <rect>
-      <x>430</x>
+      <x>440</x>
       <y>210</y>
-      <width>131</width>
+      <width>121</width>
       <height>31</height>
      </rect>
     </property>
@@ -199,7 +199,7 @@
      <string>Canselado :</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="agregar">
+   <widget class="QPushButton" name="Nuevo_recibo">
     <property name="geometry">
      <rect>
       <x>140</x>
@@ -232,7 +232,7 @@
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="Cancelar">
+   <widget class="QPushButton" name="Cancelar_recibo">
     <property name="geometry">
      <rect>
       <x>290</x>
@@ -254,8 +254,18 @@
     <property name="text">
      <string>CANCELAR</string>
     </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/new/art_pint/eliminar.png</normaloff>../assets/icons/new/art_pint/eliminar.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>35</width>
+      <height>35</height>
+     </size>
+    </property>
    </widget>
-   <widget class="QCheckBox" name="checkBox">
+   <widget class="QCheckBox" name="canselado">
     <property name="geometry">
      <rect>
       <x>530</x>
@@ -271,7 +281,7 @@
      <string>SI</string>
     </property>
    </widget>
-   <widget class="QTableView" name="table_compra">
+   <widget class="QTableView" name="table_de_recibo">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -321,6 +331,85 @@
     </property>
     <property name="text">
      <string>1234567</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="buscador_recibo">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>210</y>
+      <width>261</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="borrar_producto">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>210</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/new/art_pint/eliminar.png</normaloff>../assets/icons/new/art_pint/eliminar.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="anadir_producto">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>210</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/new/art_pint/anadir.png</normaloff>../assets/icons/new/art_pint/anadir.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
     </property>
    </widget>
   </widget>

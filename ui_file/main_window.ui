@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>589</width>
-    <height>537</height>
+    <height>483</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -23,7 +23,7 @@
      <x>10</x>
      <y>10</y>
      <width>281</width>
-     <height>411</height>
+     <height>351</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -75,7 +75,7 @@ QPushButton:pressed
 }</string>
     </property>
     <property name="text">
-     <string>Ver Productos       </string>
+     <string>Ver los Productos       </string>
     </property>
     <property name="icon">
      <iconset>
@@ -203,69 +203,13 @@ QPushButton:pressed
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="Eliminar_Productos">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>270</y>
-      <width>261</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>16</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="cursor">
-     <cursorShape>PointingHandCursor</cursorShape>
-    </property>
-    <property name="focusPolicy">
-     <enum>Qt::NoFocus</enum>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">*{
-color: rgb(255, 255, 255);
-}
-
-QPushButton:hover
-{
-	border-style: solid;
-   	background-color:#3a3a3a;
-
-}
-
-QPushButton:pressed
-{
-	 	background-color:#1e1e1e;
-}</string>
-    </property>
-    <property name="text">
-     <string>Eliminar Producto</string>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../assets/icons/new/art_pint/bloqueador.png</normaloff>../assets/icons/new/art_pint/bloqueador.png</iconset>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>50</width>
-      <height>50</height>
-     </size>
-    </property>
-    <property name="flat">
-     <bool>true</bool>
-    </property>
-   </widget>
    <widget class="QPushButton" name="Ajustes_Productos">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>340</y>
-      <width>261</width>
-      <height>61</height>
+      <x>0</x>
+      <y>270</y>
+      <width>281</width>
+      <height>81</height>
      </rect>
     </property>
     <property name="font">
@@ -284,18 +228,19 @@ QPushButton:pressed
     <property name="styleSheet">
      <string notr="true">*{
 color: rgb(255, 255, 255);
+background-color: rgb(35, 35, 35);
 }
 
 QPushButton:hover
 {
 	border-style: solid;
-   	background-color:#3a3a3a;
+   	background-color:#1e1e1e;
 
 }
 
 QPushButton:pressed
 {
-	 	background-color:#1e1e1e;
+	 	background-color:#3a3a3a ;
 }</string>
     </property>
     <property name="text">
@@ -333,7 +278,7 @@ QPushButton:pressed
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>430</y>
+     <y>370</y>
      <width>571</width>
      <height>101</height>
     </rect>
@@ -752,7 +697,7 @@ QPushButton:pressed
      <x>300</x>
      <y>10</y>
      <width>281</width>
-     <height>411</height>
+     <height>351</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -804,7 +749,7 @@ QPushButton:pressed
 }</string>
     </property>
     <property name="text">
-     <string> Abrir Recibos     </string>
+     <string> Ver los Recibos     </string>
     </property>
     <property name="icon">
      <iconset>
@@ -932,69 +877,13 @@ QPushButton:pressed
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="Delate_Recibo">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>270</y>
-      <width>261</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>16</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="cursor">
-     <cursorShape>PointingHandCursor</cursorShape>
-    </property>
-    <property name="focusPolicy">
-     <enum>Qt::NoFocus</enum>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">*{
-color: rgb(255, 255, 255);
-}
-
-QPushButton:hover
-{
-	border-style: solid;
-   	background-color:#3a3a3a;
-
-}
-
-QPushButton:pressed
-{
-	 	background-color:#1e1e1e;
-}</string>
-    </property>
-    <property name="text">
-     <string>Eliminar Recibo</string>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../assets/icons/new/art_pint/archivo.png</normaloff>../assets/icons/new/art_pint/archivo.png</iconset>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>50</width>
-      <height>50</height>
-     </size>
-    </property>
-    <property name="flat">
-     <bool>true</bool>
-    </property>
-   </widget>
    <widget class="QPushButton" name="Ajustes_Recibo">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>340</y>
-      <width>261</width>
-      <height>61</height>
+      <x>0</x>
+      <y>270</y>
+      <width>281</width>
+      <height>71</height>
      </rect>
     </property>
     <property name="font">
@@ -1013,18 +902,19 @@ QPushButton:pressed
     <property name="styleSheet">
      <string notr="true">*{
 color: rgb(255, 255, 255);
+
 }
 
 QPushButton:hover
 {
 	border-style: solid;
-   	background-color:#3a3a3a;
+   	background-color:#1e1e1e;
 
 }
 
 QPushButton:pressed
 {
-	 	background-color:#1e1e1e;
+	 	background-color:#3a3a3a ;
 }</string>
     </property>
     <property name="text">

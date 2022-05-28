@@ -3,4 +3,4 @@ from views.main_window import Tienda_Main
 
 class ListProductWindow(QWidget,Tienda_main):
     def __init__(self):
-        super().__init__()
+        super().__init__()  
