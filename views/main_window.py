@@ -17,12 +17,12 @@ class Tienda_Main(object):
     def setupUi(self, Tienda_Main):
         if not Tienda_Main.objectName():
             Tienda_Main.setObjectName(u"Tienda_Main")
-        Tienda_Main.resize(589, 537)
+        Tienda_Main.resize(589, 483)
         Tienda_Main.setStyleSheet(u"background-color: rgb(0, 0, 0);\n"
 "")
         self.frame = QFrame(Tienda_Main)
         self.frame.setObjectName(u"frame")
-        self.frame.setGeometry(QRect(10, 10, 281, 411))
+        self.frame.setGeometry(QRect(10, 10, 281, 351))
         self.frame.setStyleSheet(u"background-color: rgb(39, 39, 39);")
         self.frame.setFrameShape(QFrame.StyledPanel)
         self.frame.setFrameShadow(QFrame.Raised)
@@ -108,35 +108,9 @@ class Tienda_Main(object):
         self.Editar_Productos.setIcon(icon2)
         self.Editar_Productos.setIconSize(QSize(50, 50))
         self.Editar_Productos.setFlat(True)
-        self.Eliminar_Productos = QPushButton(self.frame)
-        self.Eliminar_Productos.setObjectName(u"Eliminar_Productos")
-        self.Eliminar_Productos.setGeometry(QRect(10, 270, 261, 61))
-        self.Eliminar_Productos.setFont(font)
-        self.Eliminar_Productos.setCursor(QCursor(Qt.PointingHandCursor))
-        self.Eliminar_Productos.setFocusPolicy(Qt.NoFocus)
-        self.Eliminar_Productos.setStyleSheet(u"*{\n"
-"color: rgb(255, 255, 255);\n"
-"}\n"
-"\n"
-"QPushButton:hover\n"
-"{\n"
-"	border-style: solid;\n"
-"   	background-color:#3a3a3a;\n"
-"\n"
-"}\n"
-"\n"
-"QPushButton:pressed\n"
-"{\n"
-"	 	background-color:#1e1e1e;\n"
-"}")
-        icon3 = QIcon()
-        icon3.addFile(u"../assets/icons/new/art_pint/bloqueador.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.Eliminar_Productos.setIcon(icon3)
-        self.Eliminar_Productos.setIconSize(QSize(50, 50))
-        self.Eliminar_Productos.setFlat(True)
         self.Ajustes_Productos = QPushButton(self.frame)
         self.Ajustes_Productos.setObjectName(u"Ajustes_Productos")
-        self.Ajustes_Productos.setGeometry(QRect(10, 340, 261, 61))
+        self.Ajustes_Productos.setGeometry(QRect(0, 270, 281, 81))
         font1 = QFont()
         font1.setPointSize(14)
         font1.setBold(True)
@@ -146,22 +120,23 @@ class Tienda_Main(object):
         self.Ajustes_Productos.setFocusPolicy(Qt.NoFocus)
         self.Ajustes_Productos.setStyleSheet(u"*{\n"
 "color: rgb(255, 255, 255);\n"
+"background-color: rgb(35, 35, 35);\n"
 "}\n"
 "\n"
 "QPushButton:hover\n"
 "{\n"
 "	border-style: solid;\n"
-"   	background-color:#3a3a3a;\n"
+"   	background-color:#1e1e1e;\n"
 "\n"
 "}\n"
 "\n"
 "QPushButton:pressed\n"
 "{\n"
-"	 	background-color:#1e1e1e;\n"
+"	 	background-color:#3a3a3a ;\n"
 "}")
-        icon4 = QIcon()
-        icon4.addFile(u"../assets/icons/new/art_pint/gestion-de-producto.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.Ajustes_Productos.setIcon(icon4)
+        icon3 = QIcon()
+        icon3.addFile(u"../assets/icons/new/art_pint/gestion-de-producto.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.Ajustes_Productos.setIcon(icon3)
         self.Ajustes_Productos.setIconSize(QSize(50, 50))
         self.Ajustes_Productos.setFlat(True)
         self.label = QLabel(self.frame)
@@ -169,7 +144,7 @@ class Tienda_Main(object):
         self.label.setGeometry(QRect(0, 20, 281, 31))
         self.frame_2 = QFrame(Tienda_Main)
         self.frame_2.setObjectName(u"frame_2")
-        self.frame_2.setGeometry(QRect(10, 430, 571, 101))
+        self.frame_2.setGeometry(QRect(10, 370, 571, 101))
         self.frame_2.setStyleSheet(u"background-color: rgb(115, 115, 115);")
         self.frame_2.setFrameShape(QFrame.StyledPanel)
         self.frame_2.setFrameShadow(QFrame.Raised)
@@ -188,9 +163,9 @@ class Tienda_Main(object):
 "{\n"
 "	 	background-color:#0069c0;\n"
 "}")
-        icon5 = QIcon()
-        icon5.addFile(u"../assets/icons/new/art_pint/usuario (2).png", QSize(), QIcon.Normal, QIcon.Off)
-        self.Your_users.setIcon(icon5)
+        icon4 = QIcon()
+        icon4.addFile(u"../assets/icons/new/art_pint/usuario (2).png", QSize(), QIcon.Normal, QIcon.Off)
+        self.Your_users.setIcon(icon4)
         self.Your_users.setIconSize(QSize(40, 40))
         self.Your_users.setFlat(True)
         self.More_users = QPushButton(self.frame_2)
@@ -208,9 +183,9 @@ class Tienda_Main(object):
 "{\n"
 "	 	background-color:#0069c0;\n"
 "}")
-        icon6 = QIcon()
-        icon6.addFile(u"../assets/icons/new/art_pint/grupo.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.More_users.setIcon(icon6)
+        icon5 = QIcon()
+        icon5.addFile(u"../assets/icons/new/art_pint/grupo.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.More_users.setIcon(icon5)
         self.More_users.setIconSize(QSize(40, 40))
         self.More_users.setFlat(True)
         self.Close_Main = QPushButton(self.frame_2)
@@ -228,9 +203,9 @@ class Tienda_Main(object):
 "{\n"
 "	 	background-color:#0069c0;\n"
 "}")
-        icon7 = QIcon()
-        icon7.addFile(u"../assets/icons/new/art_pint/eliminar.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.Close_Main.setIcon(icon7)
+        icon6 = QIcon()
+        icon6.addFile(u"../assets/icons/new/art_pint/eliminar.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.Close_Main.setIcon(icon6)
         self.Close_Main.setIconSize(QSize(40, 40))
         self.Close_Main.setFlat(True)
         self.New_Users = QPushButton(self.frame_2)
@@ -248,9 +223,9 @@ class Tienda_Main(object):
 "{\n"
 "	 	background-color:#0069c0;\n"
 "}")
-        icon8 = QIcon()
-        icon8.addFile(u"../assets/icons/new/art_pint/usuario.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.New_Users.setIcon(icon8)
+        icon7 = QIcon()
+        icon7.addFile(u"../assets/icons/new/art_pint/usuario.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.New_Users.setIcon(icon7)
         self.New_Users.setIconSize(QSize(40, 40))
         self.New_Users.setFlat(True)
         self.Confg = QPushButton(self.frame_2)
@@ -268,9 +243,9 @@ class Tienda_Main(object):
 "{\n"
 "	 	background-color:#0069c0;\n"
 "}")
-        icon9 = QIcon()
-        icon9.addFile(u"../assets/icons/new/art_pint/ajustes.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.Confg.setIcon(icon9)
+        icon8 = QIcon()
+        icon8.addFile(u"../assets/icons/new/art_pint/ajustes.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.Confg.setIcon(icon8)
         self.Confg.setIconSize(QSize(40, 40))
         self.Confg.setFlat(True)
         self.Close_Users = QPushButton(self.frame_2)
@@ -288,9 +263,9 @@ class Tienda_Main(object):
 "{\n"
 "	 	background-color:#0069c0;\n"
 "}")
-        icon10 = QIcon()
-        icon10.addFile(u"../assets/icons/new/art_pint/abra-bloqueo.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.Close_Users.setIcon(icon10)
+        icon9 = QIcon()
+        icon9.addFile(u"../assets/icons/new/art_pint/abra-bloqueo.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.Close_Users.setIcon(icon9)
         self.Close_Users.setIconSize(QSize(40, 40))
         self.Close_Users.setFlat(True)
         self.label_3 = QLabel(self.frame_2)
@@ -341,7 +316,7 @@ class Tienda_Main(object):
         self.label_12.raise_()
         self.frame_3 = QFrame(Tienda_Main)
         self.frame_3.setObjectName(u"frame_3")
-        self.frame_3.setGeometry(QRect(300, 10, 281, 411))
+        self.frame_3.setGeometry(QRect(300, 10, 281, 351))
         self.frame_3.setStyleSheet(u"background-color: rgb(39, 39, 39);")
         self.frame_3.setFrameShape(QFrame.StyledPanel)
         self.frame_3.setFrameShadow(QFrame.Raised)
@@ -366,9 +341,9 @@ class Tienda_Main(object):
 "{\n"
 "	 	background-color:#1e1e1e;\n"
 "}")
-        icon11 = QIcon()
-        icon11.addFile(u"../assets/icons/new/art_pint/reserva.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.Open_Recibos.setIcon(icon11)
+        icon10 = QIcon()
+        icon10.addFile(u"../assets/icons/new/art_pint/reserva.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.Open_Recibos.setIcon(icon10)
         self.Open_Recibos.setIconSize(QSize(50, 50))
         self.Open_Recibos.setFlat(True)
         self.New_Recibo = QPushButton(self.frame_3)
@@ -392,9 +367,9 @@ class Tienda_Main(object):
 "{\n"
 "	 	background-color:#1e1e1e;\n"
 "}")
-        icon12 = QIcon()
-        icon12.addFile(u"../assets/icons/new/art_pint/presupuesto.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.New_Recibo.setIcon(icon12)
+        icon11 = QIcon()
+        icon11.addFile(u"../assets/icons/new/art_pint/presupuesto.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.New_Recibo.setIcon(icon11)
         self.New_Recibo.setIconSize(QSize(50, 50))
         self.New_Recibo.setFlat(True)
         self.Edit_Recibo = QPushButton(self.frame_3)
@@ -418,61 +393,36 @@ class Tienda_Main(object):
 "{\n"
 "	 	background-color:#1e1e1e;\n"
 "}")
-        icon13 = QIcon()
-        icon13.addFile(u"../assets/icons/new/art_pint/documento.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.Edit_Recibo.setIcon(icon13)
+        icon12 = QIcon()
+        icon12.addFile(u"../assets/icons/new/art_pint/documento.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.Edit_Recibo.setIcon(icon12)
         self.Edit_Recibo.setIconSize(QSize(50, 50))
         self.Edit_Recibo.setFlat(True)
-        self.Delate_Recibo = QPushButton(self.frame_3)
-        self.Delate_Recibo.setObjectName(u"Delate_Recibo")
-        self.Delate_Recibo.setGeometry(QRect(10, 270, 261, 61))
-        self.Delate_Recibo.setFont(font)
-        self.Delate_Recibo.setCursor(QCursor(Qt.PointingHandCursor))
-        self.Delate_Recibo.setFocusPolicy(Qt.NoFocus)
-        self.Delate_Recibo.setStyleSheet(u"*{\n"
-"color: rgb(255, 255, 255);\n"
-"}\n"
-"\n"
-"QPushButton:hover\n"
-"{\n"
-"	border-style: solid;\n"
-"   	background-color:#3a3a3a;\n"
-"\n"
-"}\n"
-"\n"
-"QPushButton:pressed\n"
-"{\n"
-"	 	background-color:#1e1e1e;\n"
-"}")
-        icon14 = QIcon()
-        icon14.addFile(u"../assets/icons/new/art_pint/archivo.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.Delate_Recibo.setIcon(icon14)
-        self.Delate_Recibo.setIconSize(QSize(50, 50))
-        self.Delate_Recibo.setFlat(True)
         self.Ajustes_Recibo = QPushButton(self.frame_3)
         self.Ajustes_Recibo.setObjectName(u"Ajustes_Recibo")
-        self.Ajustes_Recibo.setGeometry(QRect(10, 340, 261, 61))
+        self.Ajustes_Recibo.setGeometry(QRect(0, 270, 281, 71))
         self.Ajustes_Recibo.setFont(font)
         self.Ajustes_Recibo.setCursor(QCursor(Qt.PointingHandCursor))
         self.Ajustes_Recibo.setFocusPolicy(Qt.NoFocus)
         self.Ajustes_Recibo.setStyleSheet(u"*{\n"
 "color: rgb(255, 255, 255);\n"
+"\n"
 "}\n"
 "\n"
 "QPushButton:hover\n"
 "{\n"
 "	border-style: solid;\n"
-"   	background-color:#3a3a3a;\n"
+"   	background-color:#1e1e1e;\n"
 "\n"
 "}\n"
 "\n"
 "QPushButton:pressed\n"
 "{\n"
-"	 	background-color:#1e1e1e;\n"
+"	 	background-color:#3a3a3a ;\n"
 "}")
-        icon15 = QIcon()
-        icon15.addFile(u"../assets/icons/new/art_pint/documento (4).png", QSize(), QIcon.Normal, QIcon.Off)
-        self.Ajustes_Recibo.setIcon(icon15)
+        icon13 = QIcon()
+        icon13.addFile(u"../assets/icons/new/art_pint/documento (4).png", QSize(), QIcon.Normal, QIcon.Off)
+        self.Ajustes_Recibo.setIcon(icon13)
         self.Ajustes_Recibo.setIconSize(QSize(50, 50))
         self.Ajustes_Recibo.setFlat(True)
         self.label_2 = QLabel(self.frame_3)
@@ -486,10 +436,9 @@ class Tienda_Main(object):
 
     def retranslateUi(self, Tienda_Main):
         Tienda_Main.setWindowTitle(QCoreApplication.translate("Tienda_Main", u"Tienda Main", None))
-        self.Ver_Productos.setText(QCoreApplication.translate("Tienda_Main", u"Ver Productos       ", None))
+        self.Ver_Productos.setText(QCoreApplication.translate("Tienda_Main", u"Ver los Productos", None))
         self.Anadir_Productos.setText(QCoreApplication.translate("Tienda_Main", u"A\u00f1adir Producto   ", None))
         self.Editar_Productos.setText(QCoreApplication.translate("Tienda_Main", u"Editar Producto    ", None))
-        self.Eliminar_Productos.setText(QCoreApplication.translate("Tienda_Main", u"Eliminar Producto", None))
         self.Ajustes_Productos.setText(QCoreApplication.translate("Tienda_Main", u"Ajustes de Productos", None))
         self.label.setText(QCoreApplication.translate("Tienda_Main", u"<html><head/><body><p align=\"center\"><span style=\" font-size:18pt; font-weight:600; color:#ffffff;\">Productos</span></p></body></html>", None))
         self.Your_users.setText("")
@@ -508,10 +457,9 @@ class Tienda_Main(object):
         self.label_10.setText(QCoreApplication.translate("Tienda_Main", u"<html><head/><body><p align=\"center\"><span style=\" font-size:11pt; font-weight:600; font-style:italic; color:#2d2d2d;\">Confg.</span></p></body></html>", None))
         self.label_11.setText(QCoreApplication.translate("Tienda_Main", u"<html><head/><body><p align=\"center\"><span style=\" font-size:11pt; font-weight:600; font-style:italic; color:#2d2d2d;\">Tu</span></p></body></html>", None))
         self.label_12.setText(QCoreApplication.translate("Tienda_Main", u"<html><head/><body><p align=\"center\"><span style=\" font-size:11pt; font-weight:600; font-style:italic; color:#2d2d2d;\">Cuenta</span></p></body></html>", None))
-        self.Open_Recibos.setText(QCoreApplication.translate("Tienda_Main", u" Abrir Recibos     ", None))
+        self.Open_Recibos.setText(QCoreApplication.translate("Tienda_Main", u" Ver los Recibos     ", None))
         self.New_Recibo.setText(QCoreApplication.translate("Tienda_Main", u"A\u00f1adir Recibo   ", None))
         self.Edit_Recibo.setText(QCoreApplication.translate("Tienda_Main", u" Editar Recibo   ", None))
-        self.Delate_Recibo.setText(QCoreApplication.translate("Tienda_Main", u"Eliminar Recibo", None))
         self.Ajustes_Recibo.setText(QCoreApplication.translate("Tienda_Main", u"Ajustes de Recibo", None))
         self.label_2.setText(QCoreApplication.translate("Tienda_Main", u"<html><head/><body><p align=\"center\"><span style=\" font-size:18pt; font-weight:600; color:#ffffff;\">Recibo</span></p></body></html>", None))
     # retranslateUi

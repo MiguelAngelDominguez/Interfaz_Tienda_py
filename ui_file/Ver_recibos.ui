@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Ver_productos</class>
- <widget class="QWidget" name="Ver_productos">
+ <class>Ver_recibos</class>
+ <widget class="QWidget" name="Ver_recibos">
   <property name="geometry">
    <rect>
     <x>0</x>

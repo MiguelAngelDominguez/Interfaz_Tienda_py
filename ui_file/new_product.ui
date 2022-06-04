@@ -330,7 +330,7 @@
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../assets/icons/new/art_pint/anadir-al-carrito.png</normaloff>../assets/icons/new/art_pint/anadir-al-carrito.png</iconset>
+      <normaloff>../assets/icons/new/art_pint/abrir-caja.png</normaloff>../assets/icons/new/art_pint/abrir-caja.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -360,6 +360,16 @@
     </property>
     <property name="text">
      <string>CANCELAR</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/new/art_pint/eliminar.png</normaloff>../assets/icons/new/art_pint/eliminar.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>35</width>
+      <height>35</height>
+     </size>
     </property>
    </widget>
    <widget class="QLabel" name="label_19">

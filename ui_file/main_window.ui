@@ -75,7 +75,7 @@ QPushButton:pressed
 }</string>
     </property>
     <property name="text">
-     <string>Ver los Productos       </string>
+     <string>Ver los Productos</string>
     </property>
     <property name="icon">
      <iconset>
