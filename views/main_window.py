@@ -52,7 +52,7 @@ class Tienda_Main(object):
 "	 	background-color:#1e1e1e;\n"
 "}")
         icon = QIcon()
-        icon.addFile(u"../assets/icons/new/art_pint/descripcion-del-producto.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon.addFile(u"./assets/icons/new/art_pint/descripcion-del-producto.png", QSize(), QIcon.Normal, QIcon.Off)
         self.Ver_Productos.setIcon(icon)
         self.Ver_Productos.setIconSize(QSize(50, 50))
         self.Ver_Productos.setFlat(True)
@@ -78,7 +78,7 @@ class Tienda_Main(object):
 "	 	background-color:#1e1e1e;\n"
 "}")
         icon1 = QIcon()
-        icon1.addFile(u"../assets/icons/new/art_pint/abrir-caja.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon1.addFile(u"./assets/icons/new/art_pint/abrir-caja.png", QSize(), QIcon.Normal, QIcon.Off)
         self.Anadir_Productos.setIcon(icon1)
         self.Anadir_Productos.setIconSize(QSize(50, 50))
         self.Anadir_Productos.setFlat(True)
@@ -104,7 +104,7 @@ class Tienda_Main(object):
 "	 	background-color:#1e1e1e;\n"
 "}")
         icon2 = QIcon()
-        icon2.addFile(u"../assets/icons/new/art_pint/caracteristicas.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon2.addFile(u"./assets/icons/new/art_pint/caracteristicas.png", QSize(), QIcon.Normal, QIcon.Off)
         self.Editar_Productos.setIcon(icon2)
         self.Editar_Productos.setIconSize(QSize(50, 50))
         self.Editar_Productos.setFlat(True)
@@ -135,7 +135,7 @@ class Tienda_Main(object):
 "	 	background-color:#3a3a3a ;\n"
 "}")
         icon3 = QIcon()
-        icon3.addFile(u"../assets/icons/new/art_pint/gestion-de-producto.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon3.addFile(u"./assets/icons/new/art_pint/gestion-de-producto.png", QSize(), QIcon.Normal, QIcon.Off)
         self.Ajustes_Productos.setIcon(icon3)
         self.Ajustes_Productos.setIconSize(QSize(50, 50))
         self.Ajustes_Productos.setFlat(True)
@@ -164,7 +164,7 @@ class Tienda_Main(object):
 "	 	background-color:#0069c0;\n"
 "}")
         icon4 = QIcon()
-        icon4.addFile(u"../assets/icons/new/art_pint/usuario (2).png", QSize(), QIcon.Normal, QIcon.Off)
+        icon4.addFile(u"./assets/icons/new/art_pint/usuario (2).png", QSize(), QIcon.Normal, QIcon.Off)
         self.Your_users.setIcon(icon4)
         self.Your_users.setIconSize(QSize(40, 40))
         self.Your_users.setFlat(True)
@@ -184,7 +184,7 @@ class Tienda_Main(object):
 "	 	background-color:#0069c0;\n"
 "}")
         icon5 = QIcon()
-        icon5.addFile(u"../assets/icons/new/art_pint/grupo.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon5.addFile(u"./assets/icons/new/art_pint/grupo.png", QSize(), QIcon.Normal, QIcon.Off)
         self.More_users.setIcon(icon5)
         self.More_users.setIconSize(QSize(40, 40))
         self.More_users.setFlat(True)
@@ -204,7 +204,7 @@ class Tienda_Main(object):
 "	 	background-color:#0069c0;\n"
 "}")
         icon6 = QIcon()
-        icon6.addFile(u"../assets/icons/new/art_pint/eliminar.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon6.addFile(u"./assets/icons/new/art_pint/eliminar.png", QSize(), QIcon.Normal, QIcon.Off)
         self.Close_Main.setIcon(icon6)
         self.Close_Main.setIconSize(QSize(40, 40))
         self.Close_Main.setFlat(True)
@@ -224,7 +224,7 @@ class Tienda_Main(object):
 "	 	background-color:#0069c0;\n"
 "}")
         icon7 = QIcon()
-        icon7.addFile(u"../assets/icons/new/art_pint/usuario.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon7.addFile(u"./assets/icons/new/art_pint/usuario.png", QSize(), QIcon.Normal, QIcon.Off)
         self.New_Users.setIcon(icon7)
         self.New_Users.setIconSize(QSize(40, 40))
         self.New_Users.setFlat(True)
@@ -244,7 +244,7 @@ class Tienda_Main(object):
 "	 	background-color:#0069c0;\n"
 "}")
         icon8 = QIcon()
-        icon8.addFile(u"../assets/icons/new/art_pint/ajustes.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon8.addFile(u"./assets/icons/new/art_pint/ajustes.png", QSize(), QIcon.Normal, QIcon.Off)
         self.Confg.setIcon(icon8)
         self.Confg.setIconSize(QSize(40, 40))
         self.Confg.setFlat(True)
@@ -264,7 +264,7 @@ class Tienda_Main(object):
 "	 	background-color:#0069c0;\n"
 "}")
         icon9 = QIcon()
-        icon9.addFile(u"../assets/icons/new/art_pint/abra-bloqueo.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon9.addFile(u"./assets/icons/new/art_pint/abra-bloqueo.png", QSize(), QIcon.Normal, QIcon.Off)
         self.Close_Users.setIcon(icon9)
         self.Close_Users.setIconSize(QSize(40, 40))
         self.Close_Users.setFlat(True)
@@ -342,7 +342,7 @@ class Tienda_Main(object):
 "	 	background-color:#1e1e1e;\n"
 "}")
         icon10 = QIcon()
-        icon10.addFile(u"../assets/icons/new/art_pint/reserva.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon10.addFile(u"./assets/icons/new/art_pint/reserva.png", QSize(), QIcon.Normal, QIcon.Off)
         self.Open_Recibos.setIcon(icon10)
         self.Open_Recibos.setIconSize(QSize(50, 50))
         self.Open_Recibos.setFlat(True)
@@ -368,7 +368,7 @@ class Tienda_Main(object):
 "	 	background-color:#1e1e1e;\n"
 "}")
         icon11 = QIcon()
-        icon11.addFile(u"../assets/icons/new/art_pint/presupuesto.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon11.addFile(u"./assets/icons/new/art_pint/presupuesto.png", QSize(), QIcon.Normal, QIcon.Off)
         self.New_Recibo.setIcon(icon11)
         self.New_Recibo.setIconSize(QSize(50, 50))
         self.New_Recibo.setFlat(True)
@@ -394,13 +394,13 @@ class Tienda_Main(object):
 "	 	background-color:#1e1e1e;\n"
 "}")
         icon12 = QIcon()
-        icon12.addFile(u"../assets/icons/new/art_pint/documento.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon12.addFile(u"./assets/icons/new/art_pint/documento.png", QSize(), QIcon.Normal, QIcon.Off)
         self.Edit_Recibo.setIcon(icon12)
         self.Edit_Recibo.setIconSize(QSize(50, 50))
         self.Edit_Recibo.setFlat(True)
         self.Ajustes_Recibo = QPushButton(self.frame_3)
         self.Ajustes_Recibo.setObjectName(u"Ajustes_Recibo")
-        self.Ajustes_Recibo.setGeometry(QRect(0, 270, 281, 71))
+        self.Ajustes_Recibo.setGeometry(QRect(0, 270, 281, 81))
         self.Ajustes_Recibo.setFont(font)
         self.Ajustes_Recibo.setCursor(QCursor(Qt.PointingHandCursor))
         self.Ajustes_Recibo.setFocusPolicy(Qt.NoFocus)
@@ -421,7 +421,7 @@ class Tienda_Main(object):
 "	 	background-color:#3a3a3a ;\n"
 "}")
         icon13 = QIcon()
-        icon13.addFile(u"../assets/icons/new/art_pint/documento (4).png", QSize(), QIcon.Normal, QIcon.Off)
+        icon13.addFile(u"./assets/icons/new/art_pint/documento (4).png", QSize(), QIcon.Normal, QIcon.Off)
         self.Ajustes_Recibo.setIcon(icon13)
         self.Ajustes_Recibo.setIconSize(QSize(50, 50))
         self.Ajustes_Recibo.setFlat(True)
